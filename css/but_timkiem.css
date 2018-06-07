@@ -1,0 +1,18 @@
+/* CSS Document */
+
+/*Tìm kiếm*/
+.find
+{
+	float:right;
+}
+
+#txtSearch
+{
+	border-radius: 20px 20px 20px 20px;
+}
+
+#btnSearch
+{
+	border-radius: 20px 20px 20px 20px;
+	background-color:#C6C;
+}

@@ -1,0 +1,14 @@
+<?php
+session_start();
+if(isset($_GET['xoa']))
+{
+	$xoa=$_GET['xoa'];
+	unset($_SESSION['giohang'][$xoa]);
+	header('location:giohang.php');
+}
+else
+{
+	session_destroy();
+	header('location:giohang.php');
+}
+?>

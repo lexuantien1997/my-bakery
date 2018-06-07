@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+div {
+	display:block;
+}
+.bg-1 {
+	background:url(../images/ornament_2-background.png) center 420px no-repeat;
+	background-size:100% 750px;
+	min-height:2000px;
+	z-index:1000;
+}
+.bg-2 {
+	background:url(../images/footer.png) center bottom no-repeat;
+	background-size:100% 100%;
+	min-height:300px;
+	z-index:1000;
+}
+.img-product {
+	padding-top:20px;
+	background:url(../images/scroller.png) center top no-repeat;
+	background-size:100% 100%;
+	display: block;
+	width:100%;
+	height:180px;
+}
+.img-product-01 {
+	color:#000;
+	text-align:center;
+	font-size:21px;
+	font-family:"Dancing Script";
+	float:left;
+	margin:0 15px;
+	display:block;
+	width:125px;
+	height:auto;
+}
+
+.img-product-01:hover{
+	color:#ff0026;
+}
+/* Bánh ngon moi ngay */

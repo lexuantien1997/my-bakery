@@ -1,0 +1,424 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: SVN-AVO;
+    src: url(../fonts/SVN-Avo.woff);
+}
+body {
+	background:url(../images/background.png) repeat ; 
+	background-size:100% auto;
+	font-family: SVN-AVO;
+	overflow-x: hidden;
+}
+header { width:100%; margin:20px auto
+}
+footer { width:100%; margin:0 auto
+}
+.contents {
+	min-height:500px;
+}
+.logo {
+	width:180px;
+}
+.menu-background {
+	height:100px;
+	background:url(../images/menu-01.png) no-repeat ; 
+	background-size:100% 100px;
+}
+.text-menu {
+	text-align:center;
+	padding-left:25px;
+	padding-top:20px;
+	font-size:32px;
+	font-family:"Dancing Script";	
+}
+
+/*Trang chủ*/
+.slider {
+	width: 1200px;
+	height: auto;
+	position:relative;	
+}
+.btn {
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	left: 103px;
+}
+#ntoi {	right: 215px}
+.btn span {
+	color:#ad6617;
+	display:block;
+	position: absolute;	
+	padding: 2px 5px;
+	cursor: pointer;	
+	font-size:64px;
+}
+.btn span:hover {
+	color: #FF0004;
+}
+.so {
+	position: absolute;
+	bottom:22px;
+	right: 500px;
+	z-index: 100;
+	
+}
+.so a {
+	padding: 5px 10px;
+	border-radius: 50%;
+	color: #FF0004;
+	font-size: 14px;
+	font-weight:bold;	
+	text-decoration: none;
+}
+.so a:hover, .so .active {
+	background: #FF0004;
+	color: #fff;
+}
+/*Đầu bếp*/
+.dau-bep{
+	line-height:150px;
+	padding-top:15px;
+	text-align:center;
+	font-size: 32px;
+	color: #fff;
+	font-weight: bold;
+	font-family:"Dancing Script";
+	background: url(../images/menu-02.png) no-repeat;
+	background-size:600px 87px;
+	background-position:center 55px;
+}
+.anh-dau-bep{
+	width: 300px;
+	height: auto;
+}
+.anh-dau-bep-giua{
+	padding-top:20px;
+	padding-left:28px;
+	width: 300px;
+	height: auto;
+}
+.ten-dau-bep{
+	text-align:center;
+	font-family:"Dancing Script";
+	color: #FF0004;
+	font-size: 32px;
+}
+.text-dau-bep{
+	text-align:justify;
+	font-family:SVN-Avo;
+	padding-top: 10px;
+}
+.info-dau-bep {
+	font-family:"Dancing Script";
+	font-size:22px;
+	text-decoration: none;
+	color: #a75912;
+}
+.info-dau-bep:hover{
+	text-decoration: none;
+	color: #FF0004;
+}
+/*Vận chuyển*/
+.dich-vu {
+	line-height:80px;
+	padding-bottom:15px;
+	text-align:center;
+	font-size: 32px;
+	color: #fff;
+	font-weight: bold;
+	font-family:"Dancing Script";
+	background: url(../images/menu-02.png) no-repeat;
+	background-size:600px 87px;
+	background-position:center;
+}
+.van-chuyen span{
+	font-size: 28px;
+	color: #FF0004;
+	font-weight: bold;
+	font-family:"Dancing Script";
+}
+.anh-van-chuyen {
+	width: 100%;
+	height: auto;
+}
+.anh-van-chuyen-giua {
+	width: 88%;
+	height: auto;
+}
+.ten-van-chuyen {
+	color: #FF0004;
+	font-size: 18px;
+	font-family:SVN-Avo;
+}
+.text-van-chuyen {
+	font-size: 14px;
+	font-family:SVN-Avo;
+}
+/*Đặt Hàng*/
+h2{
+	font-family:"Dancing Script";
+	font-weight:bold;
+	color: #FF0004;
+	font-size: 32px;
+	line-height:30px;
+}
+.dat-hang ul {
+	width: 260px;
+	height: auto;
+    list-style-type: none;
+    padding: 0;
+}
+.dat-hang li {
+	font-family:"Dancing Script";
+    width: 160px;
+  	height: 60px;
+  	line-height: 40px;
+  	padding-top: 10px;
+	font-size: 22px;
+}	
+.dat-hang li a {
+	padding: 7px 10px;
+	color:#000;
+    text-align: center;
+    text-decoration: none;
+}
+.dat-hang li a:hover {
+	color:#FF0004;
+	text-decoration:none;
+	background:url(../images/strike-02-red.png) no-repeat center bottom;
+	background-size:100% 100%;
+}
+/*Bánh ngon*/
+.banh-ngon {
+	line-height:80px;
+	padding-bottom:15px;
+	text-align:center;
+	font-size: 32px;
+	color: #ff0026;
+	font-weight: bold;
+	font-family:"Dancing Script";
+	background: url(../images/menu-03.png) no-repeat;
+	background-size:600px 87px;
+	background-position:center;
+}
+/*footer*/
+.title-footer {
+	font-size:32px;
+	color:#fff;
+	font-family:"Dancing Script";
+	font-weight:100;
+}
+.content-footer-01 {
+	color:#fff;
+	font-size:14px;
+	font-family:SVN-AVO;
+	font-weight:100;
+}
+td.content-footer-01 a {
+	text-decoration:none;
+	color:#ff0026;
+}
+td.content-footer-01 a:hover {
+	color:#fff;
+}
+.content-footer-02 {
+	color:#fff;
+	letter-spacing:2px;
+	font-size:30px;
+	font-family:SVN-AVO;
+	font-weight:bold;
+}
+.img-footer {
+	width:160px;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img-footer-bando {
+	width:100%;
+	height:auto;
+	display: block;
+}
+.img.cangiua {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.text-footer-03 {
+	text-align-last:start;
+	padding:0px 10px;
+	color:#fff;
+	font-size:18px;
+}
+td a {
+	font-family:SVN-Avo;
+	padding-left:8px;
+	text-decoration:none;
+	color:#fff;
+	font-size:28px;
+}
+td a img {
+	vertical-align:auto;
+}
+td a:hover {
+	text-decoration:none;
+	color:#ff0026;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+	color:#ff0026;
+    text-align: center;
+    padding:0 7px;
+    text-decoration: none;
+}
+
+li a:hover {
+	color:#baa900;
+	text-decoration:none;
+	background:url(../images/strike.png) no-repeat;
+	background-size:100% 40px;
+}
+table {
+/*    border-collapse:collapse;
+*/    width: 100%;
+}
+.bg-lienhe {
+	font-family:"Dancing Script";
+	font-weight:bold;
+	color: #fff;
+	font-size: 32px;
+	line-height:120px;
+	width:100%;
+	height:auto;
+	background:url(../images/bg-lienhe.png) no-repeat left center;
+	background-size:100% auto;
+}
+/* SẢN PHẨM*/
+.h2-sanpham {
+	width:100%;
+	float:left;
+	padding-top:80px;
+	padding-left:30px;
+	font-family:"Dancing Script";
+	color: #FF0004;
+	font-size: 40px;
+}
+.img-cake {
+	position:relative;
+	margin-top:20px;
+	width:180px;
+	height:auto;
+}
+.bg-lienhe-sanpham {
+	font-family:"Dancing Script";
+	font-weight:bold;
+	color: #fff;
+	line-height:120px;
+	width:100%;
+	height:auto;
+	background:url(../images/NUOC/bg_drinksub.jpg) no-repeat left bottom;
+	background-size:100% auto;
+}
+.img-cake1 {
+	margin:0 40px;
+}
+.text-cake1 {
+	color:#000;
+	font-weight:bold;
+	position:absolute;
+	margin-left:20px;
+	text-align:center;
+	width:140px;
+	font-size:16px;
+}
+a .text-cake1:hover {
+	color:#FF0004;
+}
+
+.h2-sanpham2 {
+	width:100%;
+	float:left;
+	padding-left:30px;
+	font-family:"Dancing Script";
+	color: #FF0004;
+	font-size: 40px;
+	line-height:120px;
+}
+.bg-lienhe-sanpham2 {
+	font-family:"Dancing Script";
+	font-weight:bold;
+	color: #fff;
+	line-height:120px;
+	width:100%;
+	height:auto;
+	background:url(../images/BANH/banner-donuts.png) no-repeat left center;
+	background-size:100% auto;
+}
+.xemthem-sanpham {
+	height:80px;
+	padding-right:30px;
+	float:right;
+	font-size:22px;
+	text-decoration:none;
+	color: #000;
+}
+a .xemthem-sanpham:hover {
+	background:url(../images/strike-02-red.png) no-repeat left bottom;
+	background-size:75px 40px;
+	color:#FF0004
+}
+.img-cake2 {
+	margin:0 30px;
+}
+.text-cake2 {
+	color:#000;
+	margin:0 20px;
+	position:absolute;
+	text-align:center;
+	font-weight:bold;
+	width:140px;
+	font-size:16px;
+}
+a .text-cake2:hover {
+	color:#FF0004;
+}
+.img-drink1 {
+	position:relative;
+	margin-top:20px;
+	width:180px;
+	height:auto;
+}
+.tieude-doan {
+	float:left;
+	width:100%;
+	padding-left:30px;
+	margin-top:20px;
+	font-size:30px;
+	font-family:"Dancing Script";
+	color:#FF0004;
+}
+.bg-lienhe-sanpham3 {
+	font-family:"Dancing Script";
+	font-weight:bold;
+	color: #fff;
+	line-height:120px;
+	width:100%;
+	height:auto;
+	background:url(../images/NUOC/banner-others-eat.png) no-repeat left center;
+	background-size:100% auto;
+}
+

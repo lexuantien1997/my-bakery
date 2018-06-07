@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+   /* jssor slider loading skin spin css */
+.content-slider-01 {
+	padding-left:5px;
+	padding-top:75px;
+	color:#ff0026;
+	letter-spacing:2px;
+	font-size:20px;
+	font-family:SVN-AVO;
+	z-index:2;
+}
+.content-slider-02 {
+	line-height:24px;
+	width:400px;
+	padding-top:98px;
+	padding-left:5px;
+	color:#000;
+	letter-spacing:1px;
+	font-size:14px;
+	font-family:SVN-AVO;
+	z-index:2;
+}
+.content-slider-03 {
+	padding-top:185px;
+	padding-left:2px;
+	font-size:30px;
+	color:#333;
+	font-family:"Dancing Script";
+	font-weight:100;
+	z-index:1;
+	background:url(../images/strike-02-hover.png) no-repeat;
+	background-position:60px 190px;
+	background-size:70% auto;
+}
+.content-slider-03:hover {
+	color:#ff0026;
+}
+.jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .jssorb051 .i {position:absolute;cursor:pointer;}
+        .jssorb051 .i .b { stroke:#ff0026; stroke-width:3%; fill:#ff0026; fill-opacity:0;}
+        .jssorb051 .i:hover .b {fill-opacity:1; fill:#ff0026;}
+        .jssorb051 .iav .b {fill-opacity:1;}
+        .jssorb051 .i.idn {opacity:1;}
+
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:none;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+		

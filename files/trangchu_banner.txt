@@ -1,0 +1,8 @@
+/*BÁNH KEM VỊ CHOCOLATE|Chúng tôi tự tin với tay nghề hiện có, cửa hàng chúng tôi đáp ứng các loại bánh kem vị chocolate thơm lừng đúng điệu cho trẻ em sự thích thú.|s1.png
+/*BÁNH MÌ THỊT NGUỘI|Bánh mì chúng tôi được làm đặc ruột 100%. Chất lượng luôn đảm bảo vệ sinh và thơm ngon khi ăn, tại sao bạn không thử ăn?|s2.png
+/*BÔNG LAN CHANH DÂY|Với hương vị chua ngọt của chanh dây vàng tươi kết hợp với bột bánh mềm tươi làm nên thương hiệu của cửa hàng, mùi thơm với những trái chanh dây tươi ngon.|s3.png
+/*BÔNG LAN NHÂN TRỨNG MUỐI|Bánh bông lan xốp, mềm, thơm ngon hoà quyện cùng với vị nhân trứng muối tạo nên vị bánh độc đáo chỉ có tại cửa hàng.|s4.png
+/*BÁNH MÌ SANDWICH|Ngoài những loại bánh ngọt ra, cửa hàng chúng tôi chuyên cung cấp loại bánh mì mặn với hương vị đặc biệt, thích hợp cho dùng ăn sáng và ăn trưa cho mọi người.|s5.png
+/*BÔNG LAN KEM DÂU TÂY|Chúng tôi kết hợp bánh với trái cây tươi nhập khẩu, và bánh kem dâu tây là tiêu biểu cho loại bánh trái cây tại cửa hàng.|s6.png
+/*CUPCAKE ĐA SẮC MÀU|Chúng tôi tự tin với tay nghề hiện có, cửa hàng chúng tôi đáp ứng các loại bánh kem vị chocolate thơm lừng đúng điệu cho trẻ em sự thích thú.|s7.png
+/*DONUT MÀU SẮC|Với hương vị chua ngọt của chanh dây vàng tươi kết hợp với bột bánh mềm tươi làm nên thương hiệu của cửa hàng, mùi thơm với những trái chanh dây tươi ngon.|s8.png
